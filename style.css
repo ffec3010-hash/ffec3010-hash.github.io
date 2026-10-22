@@ -8,6 +8,10 @@ html, body { background: transparent !important; }
     display: none !important;
 }
 
+.GameHistoryTable tbody tr:has(td.annulled) {
+display: none !important;
+}
+
 .container {
   max-width: none !important;
   position: relative;
