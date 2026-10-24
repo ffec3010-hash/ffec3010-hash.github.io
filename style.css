@@ -10,31 +10,3 @@
 .GameHistoryTable tbody tr:has(td.annulled) {
 display: none !important;
 }
-
-
-/* Header cleanup */
-body.light header.NavBar,
-.NavBar {
-  background-color: rgba(15, 8, 35, 0.92) !important;
-  border-bottom: 0 !important;
-  box-shadow: none !important;
-  outline: none !important;
-  margin-bottom: 0 !important;
-  background-clip: padding-box;
-}
-.NavBar *, .NavBar::before, .NavBar::after { border-bottom: 0 !important; box-shadow: none !important; }
-
-/* Header link readability */
-body.light header.NavBar .MenuLink,
-body.light header.NavBar .clickable,
-body.light header.NavBar a {
-  color: lemonchiffon !important;
-  text-shadow: 0 0 2px rgba(255, 255, 200, 0.45);
-  transition: color 0.2s ease, text-shadow 0.2s ease;
-}
-body.light header.NavBar .MenuLink:hover,
-body.light header.NavBar .clickable:hover,
-body.light header.NavBar a:hover {
-  color: #fffacd !important;
-  text-shadow: 0 0 4px rgba(255, 255, 200, 0.65);
-}
