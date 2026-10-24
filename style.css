@@ -2,11 +2,6 @@
 display: none !important;
 }
 
-.container {
-    max-width: none !important;
-    background-image: url(https://i.postimg.cc/C541xHzH/thumb-1920-1007100.jpg.jpg);
-    background-position: center 0;
-}
 
 /* Header cleanup */
 body.light header.NavBar,
