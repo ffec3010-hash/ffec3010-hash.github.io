@@ -6,7 +6,3 @@
 
 
 
-
-.GameHistoryTable tbody tr:has(td.annulled) {
-display: none !important;
-}
